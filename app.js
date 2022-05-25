@@ -1,11 +1,14 @@
-const h1 = document.querySelector("div.hw h1");
+const title = document.querySelector(".hw");
 
-function clickTmp() {
-  if (h1.className == "black-background") {
-    h1.className = "white-background";
-  } else {
-    h1.className = "black-background";
-  }
+function handleMouseEnter() {
+  title.innerText = "Mouse is here!";
+  title.className = "black-background";
 }
 
-h1.addEventListener("click", clickTmp);
+function handleMouseLeave() {
+  title.innerText = "Mouse is gone!";
+  title.className = "white-background";
+}
+
+title.addEventListener("mouseenter", handleMouseEnter);
+title.addEventListener("mouseleave", handleMouseLeave);
