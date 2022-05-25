@@ -1,14 +1,15 @@
-const title = document.querySelector(".hw");
+const loginForm = document.querySelector(".login-form");
+const loginInput = document.querySelector(".login-form input");
+const greeting = document.querySelector(".greeting");
 
-function handleMouseEnter() {
-  title.innerText = "Mouse is here!";
-  title.className = "black-background";
+const HIDDEN_CLASSNAME = "hidden";
+
+function onLoginSubmit(event) {
+  event.preventDefault();
+  loginForm.classList.add("hidden");
+  const username = loginInput.value;
+  greeting.classList.remove("hidden");
+  greeting.innerText = "Hello " + username;
 }
 
-function handleMouseLeave() {
-  title.innerText = "Mouse is gone!";
-  title.className = "white-background";
-}
-
-title.addEventListener("mouseenter", handleMouseEnter);
-title.addEventListener("mouseleave", handleMouseLeave);
+loginForm.addEventListener("submit", onLoginSubmit);

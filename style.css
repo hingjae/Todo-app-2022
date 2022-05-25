@@ -1,7 +1,19 @@
-.black-background {
-  background-color: black;
+body {
+  height: 90vh;
 }
 
-.white-background {
-  background-color: white;
+.hidden {
+  visibility: hidden;
+}
+
+.login-greeting {
+  position: relative;
+  top: 350px;
+}
+
+.greeting,
+.login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
