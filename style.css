@@ -1,4 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Spline+Sans+Mono:wght@400;600&display=swap");
+
 body {
+  font-family: "Spline Sans Mono", monospace;
   height: 90vh;
 }
 
@@ -16,4 +19,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.login-form input:first-child {
+  border: none;
+  outline: none;
 }
