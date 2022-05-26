@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Spline+Sans+Mono:wght@400;600&display=swap");
 
 body {
+  background-color: rgba(0, 0, 0, 0.9);
   font-family: "Spline Sans Mono", monospace;
   height: 90vh;
 }
@@ -19,9 +20,25 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  color: whitesmoke;
 }
 
 .login-form input:first-child {
   border: none;
   outline: none;
+  border-bottom: 1px solid whitesmoke;
+  margin: 20px 10px;
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  font-size: 14px;
+  color: whitesmoke;
+  background-color: inherit;
+}
+
+.login-form input::placeholder {
+  display: flex;
+  justify-content: center;
+  color: white;
 }
