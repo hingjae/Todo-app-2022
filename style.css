@@ -24,6 +24,11 @@ body {
   color: whitesmoke;
 }
 
+.greeting {
+  position: relative;
+  top: 20px;
+}
+
 .login-form input:first-child {
   border: none;
   outline: none;
@@ -40,5 +45,11 @@ body {
 .login-form input::placeholder {
   display: flex;
   justify-content: center;
-  color: white;
+  color: rgb(105, 104, 104);
+}
+
+.login-form input[type="submit"] {
+  background-color: whitesmoke;
+  cursor: pointer;
+  border-radius: 5px;
 }
