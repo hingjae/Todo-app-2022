@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Spline+Sans+Mono:wght@400;600&display=swap");
+@import "login.css";
+
+body {
+  background-color: rgba(0, 0, 0, 0.9);
+  font-family: "Spline Sans Mono", monospace;
+  height: 90vh;
+}
+
+.hidden {
+  visibility: hidden;
+}
