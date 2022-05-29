@@ -3,8 +3,8 @@
   flex-direction: column;
   align-items: center;
   color: whitesmoke;
-  position: relative;
-  bottom: -55%;
+  /* position: relative;
+  bottom: -55%; */
 }
 
 .quote span {

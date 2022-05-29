@@ -1,6 +1,6 @@
 .login-greeting {
-  position: relative;
-  top: 300px;
+  /* position: relative;
+  top: 300px; */
 }
 
 .greeting,
@@ -13,8 +13,8 @@
 }
 
 .greeting {
-  position: relative;
-  top: 20px;
+  /* position: relative;
+  top: 20px; */
 }
 
 .login-form input:first-child {

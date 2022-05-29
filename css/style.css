@@ -2,13 +2,23 @@
 @import "greeting.css";
 @import "clock.css";
 @import "quotes.css";
+@import "background.css";
 
 body {
   background-color: rgba(0, 0, 0, 0.9);
   font-family: "Spline Sans Mono", monospace;
-  height: 90vh;
+  /* height: 90vh; */
 }
 
 .hidden {
   visibility: hidden;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 290px;
+  /* margin-top: 200px; */
 }
