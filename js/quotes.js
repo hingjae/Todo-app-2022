@@ -26,8 +26,8 @@ const quotes = [
   },
 ];
 
-const quote = document.querySelector(".quote span:first-child");
-const page = document.querySelector(".quote span:last-child");
+const quote = document.querySelector(".quote h3");
+const page = document.querySelector(".quote h4");
 const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
 quote.innerText = todaysQuote.quote;
