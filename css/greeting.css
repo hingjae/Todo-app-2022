@@ -1,20 +1,13 @@
 .login-greeting {
-  /* position: relative;
-  top: 300px; */
+  position: relative;
 }
 
-.greeting,
 .login-form {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   color: whitesmoke;
-}
-
-.greeting {
-  /* position: relative;
-  top: 20px; */
 }
 
 .login-form input:first-child {
@@ -40,4 +33,11 @@
   background-color: whitesmoke;
   cursor: pointer;
   border-radius: 5px;
+}
+
+.greeting {
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
+  position: absolute;
 }
