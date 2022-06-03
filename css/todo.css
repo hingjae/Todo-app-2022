@@ -3,4 +3,10 @@
   outline: none;
   color: whitesmoke;
   background-color: inherit;
+  text-align: center;
+  width: 300px;
+}
+
+.todo-form input::placeholder {
+  color: rgb(146, 143, 143);
 }
