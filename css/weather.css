@@ -1,0 +1,9 @@
+.weather {
+  color: whitesmoke;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+.weather span {
+  margin-right: 5px;
+}

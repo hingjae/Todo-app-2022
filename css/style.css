@@ -4,6 +4,7 @@
 @import "quotes.css";
 @import "background.css";
 @import "todo.css";
+@import "weather.css";
 
 body {
   background-color: rgba(0, 0, 0, 0.9);
